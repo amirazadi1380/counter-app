@@ -1,0 +1,39 @@
+body{
+    background: pink;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    border: 2px solid gray;
+    text-align: center;
+    padding: 20px 80px;
+}
+#score{
+    font-size: 35px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+button{
+    padding: 15px;
+    margin: 8px;
+    background-color: rgb(241, 132, 132);
+   border: none;
+    color: rgb(78, 24, 92);
+    border-radius: 3px;
+    font-size: 35px;
+    cursor: pointer;
+     box-shadow: 2px 4px 10px;
+     border-radius: 10px;
+    
+}
+button:hover{
+    transition:  .6s;
+    color: rgb(114, 27, 100);
+    border-radius: 30px;
+    border: none;
+   
+}
